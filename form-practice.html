@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+<fieldset>
+
+    <legend>Create an account</legend> 
+    <div class="base">
+<form action="">
+<label for="Email">Email:</label><br>
+<input type="email" name="" id="" placeholder="e.g.:username@example.com"><br>
+<label for="Password">Password:</label><br>
+<input type="password" name="" id="" ><br>
+<label for="Age">Age:</label><br>
+<select name="Age" id="" placeholder="sss">
+    <option value="select-none" disabled selected hidden>select from the age group</option>
+    <optgroup label="Child">
+    <option value="0-12 years">0-12 years</option></optgroup>
+    <optgroup label="Adolescence">
+    <option value="13-18 years">13-18 years</option></optgroup>
+    <optgroup label="Adult">
+    <option value="19-59 years">19-59 years</option>
+    </optgroup>
+    <optgroup label="Senior Adult">
+        <option value="60 years and above">60 years and above</option>
+    </optgroup>
+</select><br><br>
+<label for="about">Tell us a little about yourself:</label><br>
+<textarea name="about" id="" cols="50" rows="5"></textarea><br>
+<div style="text-align: center;">
+    <input type="checkbox" name="" id="checkbox" checked>
+<label for="agree">I agree to the <a href="https://ansmis.tech" target="_blank">terms of service</a></label><br>
+    <input type="submit" value="Sign up" id="submit">
+<input type="text" name="secret" id="" hidden value="12345">
+
+
+</form>  
+</div>  
+</fieldset>
+
+</body>
+</html>
